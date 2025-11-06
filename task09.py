@@ -6,8 +6,8 @@ class Animal:
     def make_sound(self):
         print(f"{self.name} says {self.sound}!")
 
-dog = Animal("Dog", "Woof")
-cat = Animal("Cat", "Meow")
+dog = Animal("it", "Woof")
+cat = Animal("mushuk", "Meow")
 
 dog.make_sound()
 cat.make_sound()

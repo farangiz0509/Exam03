@@ -3,4 +3,4 @@ try:
         for line in file:
             print(line.strip())
 except FileNotFoundError:
-    print("Fayl topilmadi!")
+    print("fayl topilmadi!")

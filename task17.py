@@ -25,7 +25,7 @@ class User:
 
     def deactivate(self):
         self.is_active = False
-        print(f"{self.username} nofaol bo‘ldi.")
+        print(f"{self.username} nofaol boldi.")
 
 u1 = User("Ali", "ali@gmail.com", True)
 u2 = User("Vali", "vali@gmail.com", False)

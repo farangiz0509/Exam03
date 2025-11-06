@@ -3,7 +3,7 @@ class Calculator:
         try:
             print(a / b)
         except ZeroDivisionError:
-            print("Bo‘lishda xatolik!")
+            print("bolishda xatolik bor")
 
 calc = Calculator()
 calc.divide(10, 0)

@@ -1,7 +1,7 @@
 import json
 
-name = input("Ismingizni kiriting: ")
-age = int(input("Yoshingizni kiriting: "))
+name = input("ismingizni kiriting: ")
+age = int(input("yoshingizni kiriting: "))
 
 try:
     with open("data.json", "r") as f:
@@ -14,4 +14,4 @@ users.append({"name": name, "age": age})
 with open("data.json", "w") as f:
     json.dump(users, f, indent=4)
 
-print("Ma'lumot yozildi!")
+print("malumot yozildi!")

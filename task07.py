@@ -4,7 +4,7 @@ class Book:
         self.author = author
         self.year = year
 
-book1 = Book("Alkimyogar", "Paulo Coelho", 1988)
+book1 = Book("ms alberto", "Paulo green Coelho", 1988)
 book2 = Book("Sariq devni minib", "X. Toxtaboyev", 1970)
 
 print(book1.title, "-", book1.author, "-", book1.year)

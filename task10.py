@@ -5,14 +5,14 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance += amount
-        print("Yangi balans:", self.balance)
+        print("yangi balans:", self.balance)
 
     def withdraw(self, amount):
         if amount <= self.balance:
             self.balance -= amount
-            print("Yangi balans:", self.balance)
+            print("yangi balans:", self.balance)
         else:
-            print("Balans yetarli emas")
+            print("balansingiz yetarli emas")
 
 a = BankAccount("Ali", 1000)
 a.deposit(500)

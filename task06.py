@@ -6,12 +6,12 @@ try:
 except (FileNotFoundError, json.JSONDecodeError):
     users = []
 
-name = input("Ismingizni kiriting: ")
-age = int(input("Yoshingizni kiriting: "))
+name = input("ismingizni kiriting: ")
+age = int(input("yoshingizni kiriting: "))
 
 users.append({"name": name, "age": age})
 
 with open("data.json", "w") as f:
     json.dump(users, f, indent=4)
 
-print("Foydalanuvchi qo‘shildi!")
+print("foydalanuvchi qoshildi")

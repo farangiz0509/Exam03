@@ -6,4 +6,4 @@ try:
         for u in users:
             print(f"Name: {u['name']}, Age: {u['age']}")
 except FileNotFoundError:
-    print("Fayl topilmadi!")
+    print("fayl topilmadi!")
